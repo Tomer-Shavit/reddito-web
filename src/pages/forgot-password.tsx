@@ -15,7 +15,7 @@ const ForgotPassword: NextPage<{}> = ({}) => {
   const [complete, setComplete] = useState(false);
   const [, forgotPassword] = useForgotPasswordMutation();
   return (
-    <Wrapper size="small">
+    <Wrapper varient="small">
       <Formik
         initialValues={{ email: "" }}
         // values: values of the fields
