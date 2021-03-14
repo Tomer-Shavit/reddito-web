@@ -25,7 +25,7 @@ const CreatePost: NextPage = () => {
           const response = await createPost({
             input: values,
           });
-          console.log("respone: ", response);
+
           if (!response.error) {
             router.push("/");
           }
